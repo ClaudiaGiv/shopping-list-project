@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background: url(https://images.unsplash.com/photo-1463490093487-b0ffe9b8e140?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=fd7561cb19fe69d1809ff2df9b7ddf39&auto=format&fit=crop&w=1350&q=80) center center;
+
+}
+
+h1{
+  color: white;
+}
+
+p, li{
+  color: white
+}
+
+button {
+  color: white;
+  background: orange;
+  border-color: white;
+  padding: 8px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 8px;
+}
+
+input {
+  padding: 6px;
+  border-radius:10px;
+  border: white;
+}
+
+li{
+  list-style: none;
+  background: black;
+/*   background-color: grey; */
+  padding: 6px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: max-content;
+  border-radius: 10px;
+}  
+
+#shopping-div{
+  width: max-content;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+/*   opacity: 0.8; */
+  border-radius: 20px;
+  padding: 20px;
+}
+
